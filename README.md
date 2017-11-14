@@ -1,0 +1,2 @@
+# Cuso Comunidad IT
+Pacticas 
