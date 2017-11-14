@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pseudo Elementos</title>
+    <style type="text/css">
+      body{
+        font-family: arial helvetica sans-serif;
+      }
+      nav{
+       margin-bottom:50px; 
+      }
+      nav>a{
+        background-color: #C2FAFE;
+        border: 2px solid #0B9EA8;
+        color: #0B9EA8;
+        padding: 10px;
+        text-decoration: none;
+      }
+      nav>a:hover{
+        background-color: white;
+        color: #0B9EA8;
+        text-decoration: underline;
+      }
+      style:active{
+        background-color: #046A71;
+      }
+      li{
+        background-color: #eee;
+        border: 1px solid black;
+        padding: 20px;
+      }
+      li:hover{
+        background-color: #ccc;
+        font-size: 120%;
+      }
+      li:last-child{
+        border: none;
+      }
+      li:first-child{
+        font-weight: bold;
+      }
+      li:active{
+        text-decoration: none;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo Elementos</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">News</a>
+    </nav>
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Vestibulum ultrices lectus quis diam porta, ac hendrerit ligula sagittis.</li>
+      <li>Nam in nunc non felis pulvinar cursus sit amet vel leo.</li>
+      <li>Integer ac turpis malesuada, ullamcorper elit nec, auctor mi.</li>
+      <li>Sed ultrices mauris pulvinar erat eleifend, a ornare lorem placerat.</li>
+    </ul>
+  </body>
+</html>

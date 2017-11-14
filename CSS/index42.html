@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Super Heroes con checbox</title>
+    <style>
+      body{
+        font-family: arial, helvetic, sans-sife;
+        padding: 0 20px;
+      }
+      hr{
+        padding: 1px 0;
+        border-bottom: 1px dashed black;
+      }
+      form{
+        margin:auto;
+        background-color: #eee;
+        width: 600px;
+        higth: 600px;
+      }
+      div{
+        margin: 20px;
+        border: 2px solid black;
+        box-shadow: 2px 2px 2px gray;
+      }
+      form>div>input{
+        cursor: pointer;
+        margin: 0 0 0 15px;
+      }
+      .submit{
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 5px 10px;
+        text-align: left;
+        cursor: pointer;
+        margin-left: 500px; 
+      }
+      .seleccion{
+        text-decoration: underline;
+        font-size: 18px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Super Heroes con checbox</h1><hr>
+    <form action="#">
+      <p class="seleccion">Seleccionar:</p>
+        <div>
+          <input type="checkbox" name="superheroe" value="batman" checked="checked"/>Batman
+          <input type="checkbox" name="superheroe" value="spider-man"/>Spider Man
+          <input type="checkbox" name="superheroe" value="wolverine"/>Wolverine
+          <input type="checkbox" name="superheroe" value="superman"/>Superman
+          <input type="checkbox" name="superheroe" value="flash"/>Flash <br>
+          <input type="checkbox" name="superheroe" value="captain-america"/>Captain America
+          <input type="checkbox" name="superheroe" value="iron-man"/>Iron Man
+          <input type="checkbox" name="superheroe" value="hulk" checked="checked"/>Hulk
+          <input type="checkbox" name="superheroe" value="thor"/>Thor
+          <input type="checkbox" name="superheroe" value="deadpool" checked="checked"/>Deadpool <br>
+          <input type="checkbox" name="superheroe" value="rogue"/>Rogue
+          <input type="checkbox" name="superheroe" value="wonder-moman"/>Wonder Woman
+          <input type="checkbox" name="superheroe" value="daredevil"/>Daredevil
+          <input type="checkbox" name="superheroe" value="gambit"/>Gambit
+          <input type="checkbox" name="superheroe" value="professor-x"/>Professor X <br>
+          <input type="checkbox" name="superheroe" value="nightcrawler"/>Nightcrawler
+          <input type="checkbox" name="superheroe" value="storm"/>Storm
+          <input type="checkbox" name="superheroe" value="nightwing"/>Nightwing
+          <input type="checkbox" name="superheroe" value="green-lantern"/>Green Lantern
+          <input type="checkbox" name="superheroe" value="green-arrow"/>Green Arrow
+        </div>
+      <input class="submit" type="submit" value="Elegir">
+    </form>
+  </body>
+</html>
