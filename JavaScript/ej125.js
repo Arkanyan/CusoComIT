@@ -1,0 +1,2 @@
+var gustosDeHelado = ["Zambayon", "Frutilla", "Tramontana", "Frutos del bosque", "Banana split", "Vainilla", "Crema rusa", "Choclate suizo", "Dulce de leche", "Granizado"];
+console.log(gustosDeHelado);

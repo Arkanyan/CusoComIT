@@ -1,0 +1,10 @@
+var nombre;
+var apellido;
+var edad;
+var fechaDeNacimient;
+var direccion;
+nombre = "Agustin";
+apellido = "Rafanelli";
+edad = 22;
+fechaDeNacimieto = "7/11/2017";
+direccion = "Rio Bermajo";
